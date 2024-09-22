@@ -1,0 +1,166 @@
+.nav-bar{
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+    opacity: 0.5;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 500;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+body{
+    background-image:url("iitkgp_img.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.nav{
+    /* Setting properties of nav-bar links(anchor tags)*/
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: monospace;
+    color: white;
+    align-self: center;
+
+}
+
+/* Home Icon */
+.fa-house{
+    color: white;
+    position: fixed;
+    right: 4.5vw;
+    top: 7vh;
+}
+
+.Introduction{
+   position: relative;
+   top: 50vh; 
+   left: 3vw;
+   /* height: 20vh;
+   width: 60vw; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+   background-color: rgb(244, 97, 151, 0.8);
+   border-radius: 40px;
+   line-height: 4px;
+   padding: 25px;
+   display:inline-block;
+}
+
+#name-college{
+   font-size: 25px;
+}
+
+#V1-pic{
+    height: 650px;
+    width: 300px;
+    position: absolute;
+    left: 75vw;
+}
+
+#V1-pic img{
+    height: 100%;
+    width: auto; 
+    /* how to resize an image: first set the dimensions of the container of the image, done in #V1-pic. */
+    /* then for the img element, choose height = some% of the container div, and width = auto to automatically resize in proportion.*/
+    border-radius: 10px;
+}
+
+.mail-icon{
+    border-radius: 50%;
+    background-color: white;
+    height: 14vh;
+    width: 14vh;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 200;
+}
+
+.fa-envelope{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 19px;
+}
+
+.what-i-do{
+    background-color: black;
+    /* background-repeat: repeat;*/
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    top: 784px;
+    left: -10px;
+}
+
+#intro{
+    color: white;
+    height: 80%;
+    width: 60%;
+    padding: 50px;
+    padding-top: 100px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 30px;
+}
+
+.elecimage{
+    height: 80%;
+    width: 30%;
+    padding: 30px;
+}
+
+.elecimage img{
+    height: 100%;
+    width: auto;
+}
+
+.foo{
+    background-color: #558C8C;
+    height: 275px;
+    width: 100vw;
+    opacity: 0.7;
+    position: absolute;
+    bottom: -948px;
+    right: -10px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    z-index: 0;
+}
+
+.implink{
+    text-decoration: none;
+    color: #4c1a57;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.video{
+    text-decoration: none;
+    color: #14225d;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}

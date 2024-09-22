@@ -1,0 +1,132 @@
+body{
+    background-image: url("https://i.natgeofe.com/k/ad9b542e-c4a0-4d0b-9147-da17121b4c98/MOmeow1.png?w=516.25&h=290");
+    background-size: cover;
+}
+
+.nav-social{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(148, 149, 139, 0.5);
+    position: fixed;
+    top: 25vh;
+    right: 0px;
+    z-index: 3;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.line1{
+    padding-left: 10vw;
+    padding-top: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.flexer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.handle a{
+    text-decoration: none;
+    color: navy;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 20px;
+    left: -45px;
+    font-size: 25px;
+    transition-property: color; 
+    transition-duration: 0.1ms;
+    transition-timing-function: steps(1);
+    transition-delay: 0s;
+}
+
+.handle a:hover{
+    color: red;
+}
+
+.icon{
+    position: relative;
+    top: 100px;
+}
+
+.fb{
+    color: #0450b4;
+}
+
+.linkedin{
+    color: navy;
+}
+
+.insta{
+    position: relative;
+    bottom: 44px;
+}
+
+.handle.insta{
+    position: relative;
+    bottom: 95px;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+
+.mail-icon{
+    border-radius: 50%;
+    background-color: white;
+    height: 14vh;
+    width: 14vh;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 200;
+}
+
+.fa-envelope{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 19px;
+}
+
+.fa-house{
+    color: black;
+    position: fixed;
+    right: 2vw;
+    top: 5vh;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+.end{
+    position: fixed;
+    bottom: 100px;
+    left: 400px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive, Georgia, Times, 'Times New Roman', serif;
+}
